@@ -1,0 +1,8 @@
+cache:
+  connection_string: "redis://localhost:6379/0"
+db:
+  connection_string: "postgresql://postgres:postgres@localhost:5432/bot?sslmode=disable"
+telegram:
+  token: <bot:token>
+  chats:
+    - chat_id

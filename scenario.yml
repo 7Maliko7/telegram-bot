@@ -1,0 +1,118 @@
+templates:
+ q1:
+  text: "<b>Question%v"
+  actions:
+    -
+      - "Yes"
+      - "No"
+
+steps:
+- step_0:
+  text: "Let's start"
+  actions:
+  -
+    - "Yes"
+  -
+    - "Learn about us"
+- step_1:
+  template: q1
+  text: "Question 1"
+
+- step_2:
+  template: q1
+  text: "Question 2"
+
+- step_3:
+  template: q1
+  text: "Question 3"
+
+- step_4:
+  template: q1
+  text: "Question 4"
+
+- step_5:
+  template: q1
+  text: "Question 5"
+
+- step_6:
+  template: q1
+  text: "Question 6"
+
+- step_7:
+  template: q1
+  text: "Question 7"
+
+- step_8:
+  template: q1
+  text: "Question 8"
+
+- step_9:
+  template: q1
+  text: "Question 9"
+
+- step_10:
+  template: q1
+  text: "Question 10"
+
+- step_11:
+  template: q1
+  text: "Question 11"
+
+- step_12:
+  template: q1
+  text: "Question 12"
+
+- step_13:
+  template: q1
+  text: "Question 13"
+
+- step_14:
+  template: q1
+  text: "Question 14"
+
+- step_15:
+  template: q1
+  text: "Question 15"
+
+- step_16:
+  template: q1
+  text: "Question 16"
+
+- step_17:
+  template: q1
+  text: "Question 17"
+
+- step_18:
+  template: q1
+  text: "Question 18"
+
+- step_19:
+  template: q1
+  text: "Question 19"
+
+- step_20:
+  template: q1
+  text: "Question 20"
+
+- step_21:
+  template: q1
+  text: "Question 21"
+
+- step_22:
+  template: q1
+  text: "Question 22"
+
+- step_23:
+  template: q1
+  text: "Question 23"
+
+- step_24:
+  template: q1
+  text: "Question 24"
+
+- step_25:
+  text: "Determine the result"
+  triggers:
+  - "PROCESS_HISTORY"
+  # - "FINALIZE"
+  - "DO_END"
